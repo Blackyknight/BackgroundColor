@@ -1,0 +1,86 @@
+p{
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  top: 250px;
+  left: 40%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+}
+
+i{
+  color: aqua;
+}
+
+button{
+  width: 40px;
+  height: 30px;
+  margin: 20px;
+  position: relative;
+  top: 300px;
+  left: 350px;
+}
+
+button:hover{
+  background-color: white;
+}
+
+.red{
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+
+.blue{
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.green{
+  background-color: green;
+  border-radius: 50%;
+}
+
+.black{
+  background-color: black;
+  border-radius: 50%;
+}
+
+.white{
+  background-color: "c8cdd5";
+  border-radius: 50%;
+}
+
+.white:hover{
+  background-color: black;
+}
+
+.yellow{
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.pink{
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.purple{
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.allColor{
+  border-radius: 50%;
+  width: 65px;
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.allColor:hover{
+  background: white
+}
